@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": 
+	[
+		"# #",
+		" # "
+	],
+	"key": 
+	{
+		"#": 
+		{
+			"tag": "minecraft:sand"
+		}
+	},
+
+	"result": 
+	{
+		"count": 4,
+		"item": "simple-ingot-casting:ingot_mould"
+	}
+}

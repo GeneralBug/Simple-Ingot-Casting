@@ -10,13 +10,13 @@ import net.minecraft.util.Identifier;
 
 public class ModItems
 {
-    public static final Item INGOT_MOLD = register( new Item(new FabricItemSettings()), "ingot_mold");
-    public static final Item FILLED_INGOT_MOLD = register( new Item(new FabricItemSettings()), "filled_ingot_mold");
+    public static final Item INGOT_MOULD = register( new Item(new FabricItemSettings()), "ingot_mould");
+    public static final Item FILLED_INGOT_MOULD = register( new Item(new FabricItemSettings()), "filled_ingot_mould");
 
     public static void initialize()
     {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
-                .register((itemGroup) -> itemGroup.add(ModItems.INGOT_MOLD));
+                .register((itemGroup) -> itemGroup.add(ModItems.INGOT_MOULD));
     }
 
     public static Item register(Item item, String id)

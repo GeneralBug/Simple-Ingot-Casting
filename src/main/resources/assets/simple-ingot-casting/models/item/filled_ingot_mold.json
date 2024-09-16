@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": 
-	{
-        "layer0": "simple-ingot-casting:item/filled_ingot_mold"
-    }
-}

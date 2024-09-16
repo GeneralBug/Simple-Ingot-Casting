@@ -2,22 +2,17 @@
 	"type": "create:sequenced_assembly",
 	"ingredient": 
 	{
-		"item": "simple-ingot-casting:ingot_mold"
+		"item": "simple-ingot-casting:ingot_mould"
 	},
 	"transitionalItem": 
 	{
-		"item": "simple-ingot-casting:filled_ingot_mold"
+		"item": "simple-ingot-casting:filled_ingot_mould"
 	},
 	"loops": 1,
 	"results": 
 	[
 		{
-			"item": "simple-ingot-casting:ingot_mold",
-			"chance": 100
-		},
-		{
-			"item": "minecraft:iron_ingot",
-			"chance": 100
+			"item": "minecraft:iron_ingot"
 		}
 	],
 	"sequence": 
@@ -27,7 +22,7 @@
 			"ingredients": 
 			[
 				{
-					"item": "simple-ingot-casting:ingot_mold"
+					"item": "simple-ingot-casting:ingot_mould"
 				},
 				{
 					"amount": 9000,
@@ -37,7 +32,7 @@
 			"results": 
 			[
 				{
-					"item": "simple-ingot-casting:filled_ingot_mold"
+					"item": "simple-ingot-casting:filled_ingot_mould"
 				}
 			]
 		},		
@@ -46,7 +41,7 @@
 			"ingredients": 
 			[
 				{
-					"item": "simple-ingot-casting:filled_ingot_mold"
+					"item": "simple-ingot-casting:filled_ingot_mould"
 				},
 				{
 					"amount": 81000,
@@ -56,7 +51,7 @@
 			"results": 
 			[
 				{
-					"item": "simple-ingot-casting:filled_ingot_mold"
+					"item": "simple-ingot-casting:filled_ingot_mould"
 				}
 			]
 		},
@@ -65,13 +60,13 @@
 			"ingredients": 
 			[
 				{
-					"item": "simple-ingot-casting:filled_ingot_mold"
+					"item": "simple-ingot-casting:filled_ingot_mould"
 				}
 			],
 			"results": 
 			[
 				{
-					"item": "simple-ingot-casting:filled_ingot_mold"
+					"item": "simple-ingot-casting:filled_ingot_mould"
 				}
 			]
 		}

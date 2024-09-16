@@ -5,3 +5,4 @@ To Do:
  - make textures
  - add oil for quenching
  - add all the metals
+ - non-disposable mould
