@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "simple-ingot-casting",
+	"version": "${version}",
+	"name": "Simple Ingot Casting",
+	"description": "Simple Create addon adding ingot casting",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/simple-ingot-casting",
+		"sources": "https://github.com/GeneralBug/Simple-Ingot-Casting"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/simple-ingot-casting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.generalbug.SimpleIngotCasting"
+		]
+	},
+	"mixins": [
+		"simple-ingot-casting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
